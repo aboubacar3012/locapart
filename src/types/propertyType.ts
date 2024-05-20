@@ -1,0 +1,22 @@
+export type PropertyType = {
+  id: number;
+  isRecent: boolean;
+  title: string;
+  price: number;
+  caution: number;
+  locationType?:number;
+  description: string;
+  surface: number;
+  rooms: number;
+  bathrooms: number;
+  toilets: number;
+  livingrooms: number;
+  isWifi: boolean;
+  isParking: boolean;
+  isHotWater: boolean;
+  isGuard: boolean;
+  isWashingMachine: boolean;
+  isHeating: boolean;
+  isAirConditioning: boolean;
+  image: string;
+};
