@@ -3,7 +3,7 @@ import { KeyboardResize, KeyboardStyle } from '@capacitor/keyboard';
 
 const config: CapacitorConfig = {
   appId: "com.example.app",
-  appName: "locapart",
+  appName: "Locapart",
   webDir: "out",
   server: {
     androidScheme: "https",

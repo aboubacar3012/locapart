@@ -22,7 +22,7 @@ export default function ProvidersLayout({
           {children as any}
           <BottomTab />
           
-          <ToastContainer
+          {/* <ToastContainer
             stacked
             position="top-center"
             autoClose={5000}
@@ -34,7 +34,7 @@ export default function ProvidersLayout({
             draggable
             pauseOnHover
             theme="light"
-          />
+          /> */}
         </ThemeProvider>
       </PersistGate>
     </Provider>
