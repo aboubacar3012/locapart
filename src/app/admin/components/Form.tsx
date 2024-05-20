@@ -32,7 +32,7 @@ const CarForm = () => {
   };
 
   return (
-    <div className="w-full flex flex-col items-center justify-start h-screen pb-20 ">
+    <div className="w-full flex flex-col items-center justify-start h-screen pb-20 px-4">
       <h1 className="w-full text-3xl font-bold text-gray-800 text-center ">
         {title}
       </h1>

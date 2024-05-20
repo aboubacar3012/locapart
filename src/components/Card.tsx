@@ -21,7 +21,7 @@ const Card = ({ type, property }: CardProps) => {
   if (!property) return null;
   return (
     <>
-      <Link onClick={resetControls} href={`/property/${property.id}`} className={`relative ${type === "horizontal" ? 'min-w-[15rem]' : 'w-[20rem]'} bg-white shadow-lg rounded-[20px]`}>
+      <Link onClick={resetControls} href={`/property/${property.id}`} className={`relative ${type === "horizontal" ? 'min-w-[15rem]' : 'w-[23rem]'} bg-white shadow-lg rounded-[20px]`}>
         <img
           src={property.image}
           alt="Hero image"
