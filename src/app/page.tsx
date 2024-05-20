@@ -7,7 +7,6 @@ import { CiHeart } from "react-icons/ci";
 import Card from "../components/Card";
 import { getProperties, getLatestProperties } from "../data/data"
 import DrawerLayout from "../components/shared/DrawerLayout";
-import SingleProperty from "../components/SingleProperty";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../redux/store";
 import { updateControl } from '../redux/features/controlsSlice';

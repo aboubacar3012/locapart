@@ -5,7 +5,6 @@ import { CiHeart } from 'react-icons/ci';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
 import DrawerLayout from './shared/DrawerLayout';
-import SingleProperty from './SingleProperty';
 import { clearControls, updateControl } from '../redux/features/controlsSlice';
 import { PropertyType } from '../types/propertyType';
 import { formatPrice } from '../utils/formatPrice';
