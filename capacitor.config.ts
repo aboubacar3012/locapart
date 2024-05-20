@@ -7,7 +7,7 @@ const config: CapacitorConfig = {
   webDir: "out",
   server: {
     androidScheme: "https",
-    url: "https://afrograille.vercel.app/",
+    url: "https://locapart-45rw.vercel.app/auth",
     // url: "http://10.188.174.26:3000",
   },
   plugins: {

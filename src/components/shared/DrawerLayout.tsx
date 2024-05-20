@@ -43,7 +43,7 @@ const DrawerLayout = ({ open,onClose, children }: DrawerLayoutProps) => {
         placement="bottom"
         open={open}
         onClose={onClose}
-        className="overflow-hidden bg-gray-200 rounded-t-[50px]"
+        className="overflow-hidden bg-gray-200 rounded-t-[50px] p-4"
         placeholder={undefined}
         onPointerEnterCapture={undefined}
         onPointerLeaveCapture={undefined}

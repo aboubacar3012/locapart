@@ -18,10 +18,7 @@ export default function Home() {
   const router = useRouter();
   const properties = getProperties();
   const latests = getLatestProperties();
-  const auth = useSelector((state: RootState) => state.auth);
-  if(!auth.isAuthenticated) return router.push("/auth");
-
-
+  
   return (
     <main className="scrollbar-hide relative m-auto flex flex-col  max-w-[430px] ">
       <Hero />
